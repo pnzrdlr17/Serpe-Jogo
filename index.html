@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="appOpt.js" defer></script>
+  </head>
+  <body>
+    <div id="game-board">
+      <section id="topBar">
+        <span id="apple"></span>
+        <span id="current-score">0</span>
+        <span id="trophy"></span>
+        <span id="high-score">0</span>
+      </section>
+      <canvas></canvas>
+      <div id="backdrop"></div>
+      <div id="modal">
+        <div id="stats">
+          <section id="modal-curr-score"></section>
+          <section id="modal-high-score"></section>
+        </div>
+        <div id="action">
+          <button>Play Again</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
